@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+:root{
+    --Pistachio: #8dc87e;
+    --DarkSea: #93ac86;
+    --French: #696047;
+    --Umber: #893c2f;
+    --hell: #d13610;
+
+    --text-isabelline: rgb(232, 199, 236);
+    --ice-hell: #dae0f2ff;
+    --pink: #f9cff2ff;
+    --palatin: #52154eff;
+    --bg-russian: #111344ff;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: "Poppins", sans-serif;
+}
+header {
+    background-color: var(--ice-hell);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    padding: 0px 30px 0px 30px;
+    position: fixed;
+    top: 0px;
+}
+.logo{
+    height: 90%;
+}
+.navbar,
+.navbar-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.navbar{
+    gap: 100px;
+
+}
+.navbar-list{
+    gap: 30px;
+
+}
+.navbar-list a{
+    color: var(--palatin);
+    font-size: 14px;
+
+}
+.navbar-list li:first-child > a {
+    color: black;
+    font-weight: 600;
+
+}
+.class-icon{
+    border: 2px solid black;
+    padding: 5px;
+    margin-top: 7px;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+}    
+
+main {
+    background: var(--bg-russian);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-isabelline);
+    width: 100%;
+}
+
+#hero {
+    margin-top: 65px;
+    padding: 70px 0;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+
+}
+.hero-info h1{
+    font-size: 72px;
+    width: 80%;
+    min-width: 500px;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+}
+
+.hero-info p {
+    font-size: 14px;
+    width: 80%;
+    color: var(--text-isabelline);
+    text-align: center;
+
+}
+
+.botones-anchor{
+    display: flex;    
+    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    width: 80%;
+    
+}
+.oferta-botton2{
+    color: white;
+    background-color: var(--palatin);
+    width: 140px;
+    padding: 8px 0;
+    border-radius: 10px;
+    font-size: 14px;
+    text-align: center;
+    
+}
+.oferta-botton1{
+    border: 2px solid var(--text-isabelline);
+    background-color: var(--bg-russian);
+    color: var(--text-isabelline) ;
+    width: 140px;
+    padding: 8px 0;
+    border-radius: 10px;
+    font-size: 14px;
+    text-align: center;
+}
+.hero-pic{
+   
+  width: 250px;
+  background: var(--ice-hell);
+  padding: 20px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  font-size: 14px;
+}
+
+.des-pic-top{
+    color: var(--palatin);
+    text-align: center;
+}
