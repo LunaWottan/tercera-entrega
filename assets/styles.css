@@ -160,3 +160,8 @@ main {
     color: var(--palatin);
     text-align: center;
 }
+.presentation h2{
+    max-width: 800px;
+    text-align: center;
+    font-size: 30px;
+}
