@@ -4,28 +4,102 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AdegaBoutique</title>
+    <title>Adega Boutique</title>
     <link rel="stylesheet" href="./assets/styles.css">
-   
+
+     
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header>
         <img src="./assets/adega-icon.png" alt="icono de adega" class="logo">
         <nav class="navbar">
+            <label for="toggle-menu"><i class="fas fa-bars"></i></label>
+            <input type="checkbox" id="toggle-menu">
             <ul class="navbar-list">
                 <li><a href="#">HOME</a></li>
-                <li><a href="#">Descubre</a></li>
+                <li><a href="about">Descubre</a></li>
                 <li><a href="#">Contactanos</a></li>
                 <li><a href="#">Catálogo</a></li>
                 <li><a href="#">Ofertas!</a></li>
             </ul>
+
+
+            
+            <label for="cart-togle" class="cart-label">
             <img src="./assets/cart-outline.png" alt="cart" class="class-icon">
+            </label>
+            <input type="checkbox" id="cart-togle">
+        
+            <div class="cart">
+            <h2>Tus Vinhos</h2>
+            <div class="cart-item">
+            <img src="./assets/wine-img-generic.png" alt="imagen de vinito">
+            <div class="item-info">
+                <h3 class="item-title">VINHOS</h3>
+                <p class="item-price">Precio</p>
+                <span class="item-num-price">R$45</span>
+
+            </div>
+            <div class="item-handler">
+                    <span class="quantity-handler down">-</span>
+                    <span class="item-quantity">1</span>
+                    <span class="quantity-handler up">+</span>
+            </div>
+            </div>
+        
+
+            <div class="cart-item">
+            <img src="./assets/wine-img-generic.png" alt="imagen de vinito">
+            <div class="item-info">
+                <h3 class="item-title">VINHOS</h3>
+                <p class="item-price">Precio</p>
+                <span class="item-num-price">R$45</span>
+
+            </div>
+            <div class="item-handler">
+                    <span class="quantity-handler down">-</span>
+                    <span class="item-quantity">1</span>
+                    <span class="quantity-handler up">+</span>
+            </div>
+            </div>
+
+            <div class="cart-item">
+            <img src="./assets/wine-img-generic.png" alt="imagen de vinito">
+            <div class="item-info">
+                <h3 class="item-title">VINHOS</h3>
+                <p class="item-price">Precio</p>
+                <span class="item-num-price">R$45</span>
+
+            </div>
+            <div class="item-handler">
+                    <span class="quantity-handler down">-</span>
+                    <span class="item-quantity">1</span>
+                    <span class="quantity-handler up">+</span>
+            </div>
+            </div>
+
+            <span class="divider"></span>
+            <div class="cart-total">
+            <p>TOTAL:</p>
+            <span>150</span>
+
+            </div >
+            <button class="oferta-botton1">COMPRAR</button>
+            </div>
+
         </nav>
+       
     </header>
+
+
+ 
+
     <main>
         <section id="hero">
             <div class="hero-info">
-                <h1>VINHOS BR</h1>
+                <h1>ADEGA BOUTIQUE <span>Vinhos Br</span></h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima perferendis aliquam, accusamus dolores voluptatibus id fugit ducimus consequatur assumenda repudiandae aliquid consectetur maxime est, impedit excepturi vitae dignissimos facere eos.</p>
                 <div class="botones-anchor">
                     <a href="#" class="oferta-botton1">Be AdegaBoutique</a> 
@@ -35,20 +109,99 @@
             <div class="hero-pic">
                 <img src="./assets/foto-liz.png" alt="adega hero">
                 <div class="des-pic-top">
-                    <h3>Sean bienvenidos!</h3>
-                    <p>❤️</p>
+                    
+                    <h3>Sean bienvenidos!<span>❤️</span></h3>
 
                 </div>
                 
 
             </div>
+        </section>
+
+        <section id="about">
+            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit voluptatum esse repellat consequatur blanditiis quam iste pariatur voluptate reiciendis maiores.</h2>
+        </section>
+
+        <section #cards>
+            <div class="cards-intro">
+                <h2>Our Advantages</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor beatae vel eius.</p>
+            </div>
+            <div class="cards-conteiner">
+                
+                
+                <div class="cards card2">
+                    <img class="icon-card" src="./assets/img-card/botella.png" alt="">
+                    <h3>benefit 2</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea nihil tempore maxime quaerat perferendis odio rem in at assumenda saepe!</p>
+                </div>
+
+                <div class="cards card1">
+                    <img class="icon-card" src="./assets/img-card/champagne-406-1101244.webp" alt="">
+                    <h3>benefit 1</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quibusdam dolorem a harum esse accusamus, odit vero tenetur vitae repellendus?</p>
+                </div>
+               
+                
+
+                <div class="cards card3">
+                    <img class="icon-card" src="./assets/img-card/copitas.png" alt="">
+                    <h3>benefit 3</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem consequuntur sit consequatur eos aliquam tenetur eveniet quos quae quaerat at.</p>
+                </div>
+            </div>
+
+
+        </section>
+
+        <section id="contactus">
+            <div class="contact-list-conteinter" >
+                <h2>CONTACT US</h2>
+                <div class="contact-list">
+                    <div class="listas-conteiner">
+                        <img class="img-contact" src="./assets/imagen sin fondo liz.png" alt="">
+                        <ul class="ul-cont"> LIZ!
+                            <li><img class="icon-contact" src="./assets/contact-img/icon_home.png" alt=""> calle falsa 123</li>
+                            <li><img class="icon-contact" src="./assets/contact-img/carta.png" alt=""> pepa@gmail.com</li>
+                            <li><img class="icon-contact" src="./assets/contact-img/telf.png" alt=""> 3764113122</li>
+                        </ul>
+                    </div>
+
+                    <div class="listas-conteiner">
+                        <img class="img-contact" src="./assets/imagen sin fondo fab.png" alt="">
+                        <ul class="ul-cont"> FABI!
+                            <li><img class="icon-contact" src="./assets/contact-img/icon_home.png" alt=""> calle falsa 123</li>
+                            <li><img class="icon-contact" src="./assets/contact-img/carta.png" alt=""> pepa@gmail.com</li>
+                            <li><img class="icon-contact" src="./assets/contact-img/telf.png" alt=""> 3764113122</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="container">
+                    <div class="btn fb-btn">
+                        <i class="fa-brands fa-facebook"></i>
+                    </div>
+                    <div class="btn ig-btn">
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                    <div class="btn tw-btn">
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                </div>
+            </div>
+
             
+            <img class="img-right" src="./assets/ig story.png" alt="">
             
 
         </section>
-        <section class="presentation">
-                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit voluptatum esse repellat consequatur blanditiis quam iste pariatur voluptate reiciendis maiores.</h2>
-            </section>
+        
     </main>
+    
+    <footer id="footer">
+        <img class="footer-img" src="./assets/adega-letra.png" alt="">
+        <p>Copyright AdegaBoutique</p>
+    </footer>
+        
 </body>
 </html>
