@@ -544,17 +544,24 @@ color: var(--bg-russian);
 @media (max-width: 992px){
     #hero{
         padding: none;
+        max-width: none;
+        
+        
+    }
+    .des-pic-top{
+        display: none;
     }
     .hero-pic{
         display: none;
     }
     .hero-info{
-        width: 90%;
+        width: 100%;
         text-align: center;
     }
     .hero-info h1{
-        width: 90%;
+        width: 100%;
         min-width: 400px;
+        text-align: center;
         
        
     }
