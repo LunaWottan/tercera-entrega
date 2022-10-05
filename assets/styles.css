@@ -212,6 +212,7 @@ main {
     justify-content: center;
     color: var(--text-isabelline);
     width: 100%;
+    
 }
 
 #hero {
@@ -554,18 +555,22 @@ color: var(--bg-russian);
     }
     .hero-info{
         width: 100%;
+        display: flex;
         text-align: center;
+        justify-content: center;
+        align-items: center;
     }
     .hero-info h1{
-        width: 100%;
+        width: 95%;
         min-width: 400px;
         text-align: center;
         
        
     }
     .hero-info p{
-        width: 99%;
-        min-width: 400px 
+        width: 90%;
+        
+         
     }
     .botones-anchor{
         width: 99%;  
@@ -614,4 +619,18 @@ color: var(--bg-russian);
     }
 
     
+}
+
+@media (max-width: 400px){
+    .hero-info p{
+        width: 70%;
+        max-width: 350px;
+        font-size: 16px;
+         
+    }
+    .hero-info h1{
+        max-width: 350px;
+
+    }
+   
 }
