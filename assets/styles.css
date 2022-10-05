@@ -234,10 +234,11 @@ main {
     font-size: 50px;
     width: 80%;
     min-width: 500px;
+    display: flex;
     font-weight: 800;
     color: white;
     text-align: center;
-    display: flex;
+    justify-content: center;
     flex-direction: column;
 }
 
@@ -541,6 +542,9 @@ color: var(--bg-russian);
 }
 
 @media (max-width: 992px){
+    #hero{
+        padding: none;
+    }
     .hero-pic{
         display: none;
     }
@@ -550,8 +554,9 @@ color: var(--bg-russian);
     }
     .hero-info h1{
         width: 90%;
-        min-width: 300;
-
+        min-width: 400px;
+        
+       
     }
     .hero-info p{
         width: 90%; 
@@ -575,6 +580,10 @@ color: var(--bg-russian);
         align-items: center;
         justify-content: center;
     }
+    .navbar{
+        gap: 40px;
+    }
+
     .navbar ul{
         width: 100%;
         height: calc(100vh - 80px);
