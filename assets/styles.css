@@ -91,7 +91,7 @@ header {
     position: absolute;
     top: 65px;
     right: 0px;
-    padding: 50px 30px;
+    padding: 50px 5px;
     background: var(--ice-hell);
     border-left: 1px solid var(--palatin);
     display: none;
@@ -548,9 +548,7 @@ color: var(--bg-russian);
         
         
     }
-    .des-pic-top{
-        display: none;
-    }
+   
     .hero-pic{
         display: none;
     }
