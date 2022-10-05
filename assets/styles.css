@@ -566,10 +566,11 @@ color: var(--bg-russian);
        
     }
     .hero-info p{
-        width: 90%; 
+        width: 99%;
+        min-width: 400px 
     }
     .botones-anchor{
-        width: 90%;  
+        width: 99%;  
     }
     .img-right{
         display: none;
